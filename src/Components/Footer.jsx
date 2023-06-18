@@ -2,10 +2,10 @@ import React from 'react'
 import logo from '../Images/PWSkills-logo.png'
 function Footer() {
   return (
-    <div className='bg-[#161a1d] w-full h-auto flex flex-wrap justify-evenly pt-14'>
-      <div className='col'>
+    <div className='bg-[#161a1d] w-full h-auto md:flex flex-wrap items-center justify-evenly pt-14'>
+      <div className='col md:h-96'>
         <img className='w-40' src={logo} alt='' />
-        <p className='text-[16px] text-slate-50 ml-3 my-3'>
+        <p className='text-[16px] text-slate-50 md:ml-3 md:my-3 ml-3 my-3'>
           <span className='font-bold'>Email us :</span>support@pwskills.com
         </p>
         <p className='text-[16px] text-slate-50 ml-3'>
@@ -17,12 +17,12 @@ function Footer() {
           alt=''
         />
       </div>
-      <div className='col'>
+      <div className='col ml-4 md:h-96'>
         <div className='mb-6'>
           <p className='text-2xl font-semibold text-slate-50'>PW Skills</p>
-          <p className='w-[250px] border-b-4 border-yellow-700 mt-2'></p>
+          <p className='md:w-[250px] w-24 border-b-4 border-yellow-700 mt-2'></p>
         </div>
-        <div className='w-[250px] flex justify-between'>
+        <div className='md:w-[250px] md:flex md:justify-between'>
           <div>
             <p className='text-[16px] text-slate-50'>About us</p>
             <p className='text-[16px] text-slate-50'>FAQs</p>
@@ -35,7 +35,7 @@ function Footer() {
           </div>
         </div>
       </div>
-      <div className='col'>
+      <div className='col ml-4 b-10 md:h-96'>
         <div className='mb-6'>
           <p className='text-2xl font-semibold text-slate-50'>Products</p>
           <p className='w-[100px] border-b-4 border-yellow-700 mt-2'></p>
